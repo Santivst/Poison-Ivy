@@ -1,3 +1,52 @@
+import { StyleSheet, SafeAreaView } from "react-native";
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
+import BottomTabNavigator from "./BottomTabNavigator";
+
+import { useSelector } from "react-redux";
+
+import AuthStack from "./AuthStack";
+
+const Navigator = () => {
+  // const [user, setUser] = useState(null)
+  const {user} = useSelector(state => state.auth.value)
+
+
+  return (
+
+      <NavigationContainer>
+        {user ? <BottomTabNavigator /> : <AuthStack />}
+      </NavigationContainer>
+  );
+};
+
+export default Navigator;
+
+const styles = StyleSheet.create({});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+!ANTES DE LOS CAMBIOS DE LA CLASE 10
+
+
+
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
@@ -16,21 +65,31 @@ const Stack = createNativeStackNavigator();
 const Navigator = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator
+        initialRouteName='Home'>
         <Stack.Screen 
           component={Home}
-          name='Home' />
+          name='Home' 
+          options={{ title: "Home" }}/>
         <Stack.Screen
         component={ItemListCategory}
-        name='ItemListCategory' />
+        name='ItemListCategory' 
+        options={{ title: "Productos" }}/>
         <Stack.Screen
         component={ItemDetail}
-        name='ItemDetail' />
+        name='ItemDetail' 
+        options={{ title: "Producto" }}/>
       </Stack.Navigator>
     </NavigationContainer>
   )
 }
 
+
+
 export default Navigator
 
 const styles = StyleSheet.create({})
+
+
+*/
+

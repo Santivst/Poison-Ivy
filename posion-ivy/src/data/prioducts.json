@@ -1,0 +1,872 @@
+[
+    {
+        "id": 1,
+        "title": "Monstera Deliciosa",
+        "description": "Planta tropical de interior con hojas grandes y decorativas, ideal para dar un toque exótico a tu hogar.",
+        "price": 35,
+        "discountPercentage": 10,
+        "rating": 4.8,
+        "stock": 20,
+        "brand": "GreenLife",
+        "category": "plantas-de-interior",
+        "thumbnail": "../img/monstera_delicisoa.jpg",
+        "images": [
+            "../img/monstera_delicisoa.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Ficus Lyrata",
+        "description": "Elegante planta de interior con hojas grandes y brillantes, perfecta para espacios modernos.",
+        "price": 45,
+        "discountPercentage": 8,
+        "rating": 4.7,
+        "stock": 15,
+        "brand": "GreenLife",
+        "category": "plantas-de-interior",
+        "thumbnail": "../img/ficus-lyrata.jfif",
+        "images": [
+            "../img/ficus-lyrata.jfif"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Calathea Orbifolia",
+        "description": "Planta de interior con follaje llamativo y patrones únicos, perfecta para decorar cualquier ambiente.",
+        "price": 40,
+        "discountPercentage": 5,
+        "rating": 4.6,
+        "stock": 10,
+        "brand": "EcoPlants",
+        "category": "plantas-de-interior",
+        "thumbnail": "../img/calathea-orbifolia.jpg",
+        "images": [
+            "../img/calathea-orbifolia.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Potos Dorado",
+        "description": "Planta trepadora de interior, fácil de cuidar, con hojas de un vibrante tono dorado.",
+        "price": 25,
+        "discountPercentage": 7,
+        "rating": 4.5,
+        "stock": 30,
+        "brand": "EcoPlants",
+        "category": "plantas-de-interior",
+        "thumbnail": "../img/potos-dorado.jfif",
+        "images": [
+            "../img/potos-dorado.jfif"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Palma de Salón",
+        "description": "Planta de interior que aporta frescura y elegancia, ideal para salones y oficinas.",
+        "price": 50,
+        "discountPercentage": 10,
+        "rating": 4.8,
+        "stock": 12,
+        "brand": "UrbanGreen",
+        "category": "plantas-de-interior",
+        "thumbnail": "../img/palma-de-salón.jpg",
+        "images": [
+            "../img/palma-de-salón.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Rosa de Jardín",
+        "description": "Clásica rosa de exterior, ideal para embellecer jardines y áreas al aire libre.",
+        "price": 30,
+        "discountPercentage": 5,
+        "rating": 4.7,
+        "stock": 25,
+        "brand": "GardenBloom",
+        "category": "plantas-de-exterior",
+        "thumbnail": "../img/rosa-de-jardín.jpg",
+        "images": [
+            "../img/rosa-de-jardín.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Hortensia",
+        "description": "Planta de exterior con flores exuberantes y vibrantes, perfecta para jardines amplios.",
+        "price": 28,
+        "discountPercentage": 6,
+        "rating": 4.6,
+        "stock": 20,
+        "brand": "GardenBloom",
+        "category": "plantas-de-exterior",
+        "thumbnail": "../img/hortensia.jpg",
+        "images": [
+            "../img/hortensia.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Jacarandá",
+        "description": "Árbol ornamental de exterior con flores moradas en primavera, ideal para jardines grandes.",
+        "price": 55,
+        "discountPercentage": 8,
+        "rating": 4.8,
+        "stock": 8,
+        "brand": "NatureTree",
+        "category": "plantas-de-exterior",
+        "thumbnail": "../img/jacaranda.jpg",
+        "images": [
+            "../img/jacaranda.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Buganvilla",
+        "description": "Planta trepadora de exterior, perfecta para cubrir muros y pérgolas con su vibrante color.",
+        "price": 22,
+        "discountPercentage": 4,
+        "rating": 4.5,
+        "stock": 30,
+        "brand": "NatureTree",
+        "category": "plantas-de-exterior",
+        "thumbnail": "../img/buganvilla.jpg",
+        "images": [
+            "../img/buganvilla.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Lantana",
+        "description": "Planta de exterior resistente con flores multicolores, ideal para jardines y balcones.",
+        "price": 18,
+        "discountPercentage": 5,
+        "rating": 4.4,
+        "stock": 35,
+        "brand": "GreenGarden",
+        "category": "plantas-de-exterior",
+        "thumbnail": "../img/lantana.jpg",
+        "images": [
+            "../img/lantana.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Lavanda",
+        "description": "Hierba aromática ideal para jardines y usos terapéuticos, con un aroma relajante.",
+        "price": 15,
+        "discountPercentage": 5,
+        "rating": 4.9,
+        "stock": 40,
+        "brand": "EcoHerbs",
+        "category": "hierbas-aromaticas",
+        "thumbnail": "https://via.placeholder.com/150?text=Lavanda",
+        "images": [
+            "https://via.placeholder.com/300?text=Lavanda+1",
+            "https://via.placeholder.com/300?text=Lavanda+2"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Menta",
+        "description": "Hierba fresca y versátil, perfecta para infusiones, cócteles y la cocina diaria.",
+        "price": 10,
+        "discountPercentage": 4,
+        "rating": 4.7,
+        "stock": 50,
+        "brand": "EcoHerbs",
+        "category": "hierbas-aromaticas",
+        "thumbnail": "https://via.placeholder.com/150?text=Menta",
+        "images": [
+            "https://via.placeholder.com/300?text=Menta+1",
+            "https://via.placeholder.com/300?text=Menta+2"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "Romero",
+        "description": "Hierba aromática con un aroma intenso y propiedades medicinales, ideal para condimentar.",
+        "price": 12,
+        "discountPercentage": 6,
+        "rating": 4.8,
+        "stock": 45,
+        "brand": "EcoHerbs",
+        "category": "hierbas-aromaticas",
+        "thumbnail": "https://via.placeholder.com/150?text=Romero",
+        "images": [
+            "https://via.placeholder.com/300?text=Romero+1",
+            "https://via.placeholder.com/300?text=Romero+2"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Albahaca",
+        "description": "Hierba esencial para la cocina, con un aroma fresco y vibrante, perfecta para salsas y ensaladas.",
+        "price": 8,
+        "discountPercentage": 5,
+        "rating": 4.6,
+        "stock": 60,
+        "brand": "EcoHerbs",
+        "category": "hierbas-aromaticas",
+        "thumbnail": "https://via.placeholder.com/150?text=Albahaca",
+        "images": [
+            "https://via.placeholder.com/300?text=Albahaca+1",
+            "https://via.placeholder.com/300?text=Albahaca+2"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Tomillo",
+        "description": "Hierba aromática con sabor intenso, ideal para realzar el sabor de tus platos.",
+        "price": 9,
+        "discountPercentage": 7,
+        "rating": 4.7,
+        "stock": 55,
+        "brand": "EcoHerbs",
+        "category": "hierbas-aromaticas",
+        "thumbnail": "https://via.placeholder.com/150?text=Tomillo",
+        "images": [
+            "https://via.placeholder.com/300?text=Tomillo+1",
+            "https://via.placeholder.com/300?text=Tomillo+2"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Echeveria Elegans",
+        "description": "Suculenta compacta y decorativa, ideal para espacios modernos y minimalistas.",
+        "price": 20,
+        "discountPercentage": 5,
+        "rating": 4.6,
+        "stock": 25,
+        "brand": "DesertBloom",
+        "category": "cactus-y-suculentas",
+        "thumbnail": "https://via.placeholder.com/150?text=Echeveria+Elegans",
+        "images": [
+            "https://via.placeholder.com/300?text=Echeveria+Elegans+1",
+            "https://via.placeholder.com/300?text=Echeveria+Elegans+2"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Aloe Vera",
+        "description": "Planta suculenta con propiedades medicinales y decorativas, perfecta para el cuidado natural.",
+        "price": 18,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 30,
+        "brand": "DesertBloom",
+        "category": "cactus-y-suculentas",
+        "thumbnail": "https://via.placeholder.com/150?text=Aloe+Vera",
+        "images": [
+            "https://via.placeholder.com/300?text=Aloe+Vera+1",
+            "https://via.placeholder.com/300?text=Aloe+Vera+2"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Cactus Ferocactus",
+        "description": "Cactus resistente y ornamental, ideal para decorar ambientes secos y minimalistas.",
+        "price": 25,
+        "discountPercentage": 7,
+        "rating": 4.5,
+        "stock": 20,
+        "brand": "DesertBloom",
+        "category": "cactus-y-suculentas",
+        "thumbnail": "https://via.placeholder.com/150?text=Cactus+Ferocactus",
+        "images": [
+            "https://via.placeholder.com/300?text=Cactus+Ferocactus+1",
+            "https://via.placeholder.com/300?text=Cactus+Ferocactus+2"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Agave Americana",
+        "description": "Planta suculenta de gran tamaño, perfecta para exteriores y jardines con estilo.",
+        "price": 30,
+        "discountPercentage": 6,
+        "rating": 4.7,
+        "stock": 15,
+        "brand": "DesertBloom",
+        "category": "cactus-y-suculentas",
+        "thumbnail": "https://via.placeholder.com/150?text=Agave+Americana",
+        "images": [
+            "https://via.placeholder.com/300?text=Agave+Americana+1",
+            "https://via.placeholder.com/300?text=Agave+Americana+2"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "Sedum Morganianum",
+        "description": "Suculenta colgante perfecta para macetas y terrarios, con un follaje delicado.",
+        "price": 22,
+        "discountPercentage": 5,
+        "rating": 4.6,
+        "stock": 28,
+        "brand": "DesertBloom",
+        "category": "cactus-y-suculentas",
+        "thumbnail": "https://via.placeholder.com/150?text=Sedum+Morganianum",
+        "images": [
+            "https://via.placeholder.com/300?text=Sedum+Morganianum+1",
+            "https://via.placeholder.com/300?text=Sedum+Morganianum+2"
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Bonsái de Ficus",
+        "description": "Bonsái elegante y de fácil cuidado, ideal para espacios pequeños y oficinas.",
+        "price": 70,
+        "discountPercentage": 10,
+        "rating": 4.8,
+        "stock": 10,
+        "brand": "MiniNature",
+        "category": "bonsais",
+        "thumbnail": "https://via.placeholder.com/150?text=Bonsai+Ficus",
+        "images": [
+            "https://via.placeholder.com/300?text=Bonsai+Ficus+1",
+            "https://via.placeholder.com/300?text=Bonsai+Ficus+2"
+        ]
+    },
+    {
+        "id": 22,
+        "title": "Bonsái de Pino",
+        "description": "Bonsái clásico que aporta serenidad y belleza natural, ideal para coleccionistas.",
+        "price": 80,
+        "discountPercentage": 8,
+        "rating": 4.7,
+        "stock": 8,
+        "brand": "MiniNature",
+        "category": "bonsais",
+        "thumbnail": "https://via.placeholder.com/150?text=Bonsai+Pino",
+        "images": [
+            "https://via.placeholder.com/300?text=Bonsai+Pino+1",
+            "https://via.placeholder.com/300?text=Bonsai+Pino+2"
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Bonsái de Arce",
+        "description": "Bonsái de hojas delicadas con colores otoñales, perfecto para un ambiente relajante.",
+        "price": 90,
+        "discountPercentage": 12,
+        "rating": 4.9,
+        "stock": 5,
+        "brand": "MiniNature",
+        "category": "bonsais",
+        "thumbnail": "https://via.placeholder.com/150?text=Bonsai+Arce",
+        "images": [
+            "https://via.placeholder.com/300?text=Bonsai+Arce+1",
+            "https://via.placeholder.com/300?text=Bonsai+Arce+2"
+        ]
+    },
+    {
+        "id": 24,
+        "title": "Bonsái de Olmo",
+        "description": "Bonsái resistente y decorativo, ideal para quienes buscan un toque natural en miniatura.",
+        "price": 75,
+        "discountPercentage": 10,
+        "rating": 4.7,
+        "stock": 7,
+        "brand": "MiniNature",
+        "category": "bonsais",
+        "thumbnail": "https://via.placeholder.com/150?text=Bonsai+Olmo",
+        "images": [
+            "https://via.placeholder.com/300?text=Bonsai+Olmo+1",
+            "https://via.placeholder.com/300?text=Bonsai+Olmo+2"
+        ]
+    },
+    {
+        "id": 25,
+        "title": "Bonsái de Junípero",
+        "description": "Bonsái de bajo mantenimiento con un toque exótico, ideal para espacios zen.",
+        "price": 85,
+        "discountPercentage": 9,
+        "rating": 4.8,
+        "stock": 6,
+        "brand": "MiniNature",
+        "category": "bonsais",
+        "thumbnail": "https://via.placeholder.com/150?text=Bonsai+Junipero",
+        "images": [
+            "https://via.placeholder.com/300?text=Bonsai+Junipero+1",
+            "https://via.placeholder.com/300?text=Bonsai+Junipero+2"
+        ]
+    },
+    {
+        "id": 26,
+        "title": "Rosa Roja",
+        "description": "Flor clásica de jardín, símbolo de amor y pasión, perfecta para cualquier ocasión.",
+        "price": 20,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 40,
+        "brand": "BloomArt",
+        "category": "flores",
+        "thumbnail": "https://via.placeholder.com/150?text=Rosa+Roja",
+        "images": [
+            "https://via.placeholder.com/300?text=Rosa+Roja+1",
+            "https://via.placeholder.com/300?text=Rosa+Roja+2"
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Tulipán Amarillo",
+        "description": "Flor vibrante y alegre, perfecta para ramos y jardines urbanos.",
+        "price": 18,
+        "discountPercentage": 6,
+        "rating": 4.7,
+        "stock": 35,
+        "brand": "BloomArt",
+        "category": "flores",
+        "thumbnail": "https://via.placeholder.com/150?text=Tulipan+Amarillo",
+        "images": [
+            "https://via.placeholder.com/300?text=Tulipan+Amarillo+1",
+            "https://via.placeholder.com/300?text=Tulipan+Amarillo+2"
+        ]
+    },
+    {
+        "id": 28,
+        "title": "Lirio Blanco",
+        "description": "Flor elegante y delicada, ideal para arreglos florales sofisticados.",
+        "price": 22,
+        "discountPercentage": 7,
+        "rating": 4.8,
+        "stock": 30,
+        "brand": "BloomArt",
+        "category": "flores",
+        "thumbnail": "https://via.placeholder.com/150?text=Lirio+Blanco",
+        "images": [
+            "https://via.placeholder.com/300?text=Lirio+Blanco+1",
+            "https://via.placeholder.com/300?text=Lirio+Blanco+2"
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Orquídea Violeta",
+        "description": "Flor exótica y sofisticada con una fragancia sutil, perfecta para interiores y jardines.",
+        "price": 30,
+        "discountPercentage": 8,
+        "rating": 4.9,
+        "stock": 20,
+        "brand": "BloomArt",
+        "category": "flores",
+        "thumbnail": "https://via.placeholder.com/150?text=Orquidea+Violeta",
+        "images": [
+            "https://via.placeholder.com/300?text=Orquidea+Violeta+1",
+            "https://via.placeholder.com/300?text=Orquidea+Violeta+2"
+        ]
+    },
+    {
+        "id": 30,
+        "title": "Geranio",
+        "description": "Flor resistente y colorida, ideal para jardines y balcones, con tonos vibrantes.",
+        "price": 16,
+        "discountPercentage": 5,
+        "rating": 4.6,
+        "stock": 45,
+        "brand": "BloomArt",
+        "category": "flores",
+        "thumbnail": "https://via.placeholder.com/150?text=Geranio",
+        "images": [
+            "https://via.placeholder.com/300?text=Geranio+1",
+            "https://via.placeholder.com/300?text=Geranio+2"
+        ]
+    },
+    {
+        "id": 31,
+        "title": "Maceta de Cerámica",
+        "description": "Maceta elegante y duradera, ideal para exhibir tus plantas con estilo.",
+        "price": 25,
+        "discountPercentage": 5,
+        "rating": 4.7,
+        "stock": 50,
+        "brand": "DecoPlant",
+        "category": "macetas-y-accesorios",
+        "thumbnail": "https://via.placeholder.com/150?text=Maceta+de+Ceramica",
+        "images": [
+            "https://via.placeholder.com/300?text=Maceta+de+Ceramica+1",
+            "https://via.placeholder.com/300?text=Maceta+de+Ceramica+2"
+        ]
+    },
+    {
+        "id": 32,
+        "title": "Maceta Colgante",
+        "description": "Maceta suspendida que ahorra espacio y añade un toque moderno a tu decoración.",
+        "price": 30,
+        "discountPercentage": 6,
+        "rating": 4.6,
+        "stock": 40,
+        "brand": "DecoPlant",
+        "category": "macetas-y-accesorios",
+        "thumbnail": "https://via.placeholder.com/150?text=Maceta+Colgante",
+        "images": [
+            "https://via.placeholder.com/300?text=Maceta+Colgante+1",
+            "https://via.placeholder.com/300?text=Maceta+Colgante+2"
+        ]
+    },
+    {
+        "id": 33,
+        "title": "Jardinera Minimalista",
+        "description": "Diseño moderno y funcional, ideal para jardines urbanos y balcones.",
+        "price": 35,
+        "discountPercentage": 7,
+        "rating": 4.8,
+        "stock": 30,
+        "brand": "DecoPlant",
+        "category": "macetas-y-accesorios",
+        "thumbnail": "https://via.placeholder.com/150?text=Jardinera+Minimalista",
+        "images": [
+            "https://via.placeholder.com/300?text=Jardinera+Minimalista+1",
+            "https://via.placeholder.com/300?text=Jardinera+Minimalista+2"
+        ]
+    },
+    {
+        "id": 34,
+        "title": "Maceta Autoirrigable",
+        "description": "Innovadora maceta con sistema de autoirrigación para el cuidado fácil de tus plantas.",
+        "price": 40,
+        "discountPercentage": 8,
+        "rating": 4.7,
+        "stock": 20,
+        "brand": "DecoPlant",
+        "category": "macetas-y-accesorios",
+        "thumbnail": "https://via.placeholder.com/150?text=Maceta+Autoirrigable",
+        "images": [
+            "https://via.placeholder.com/300?text=Maceta+Autoirrigable+1",
+            "https://via.placeholder.com/300?text=Maceta+Autoirrigable+2"
+        ]
+    },
+    {
+        "id": 35,
+        "title": "Set de Accesorios para Plantas",
+        "description": "Conjunto completo de accesorios para embellecer y cuidar tus plantas.",
+        "price": 45,
+        "discountPercentage": 10,
+        "rating": 4.9,
+        "stock": 15,
+        "brand": "DecoPlant",
+        "category": "macetas-y-accesorios",
+        "thumbnail": "https://via.placeholder.com/150?text=Set+de+Accesorios",
+        "images": [
+            "https://via.placeholder.com/300?text=Set+de+Accesorios+1",
+            "https://via.placeholder.com/300?text=Set+de+Accesorios+2"
+        ]
+    },
+    {
+        "id": 36,
+        "title": "Sustrato Orgánico",
+        "description": "Mezcla nutritiva y ecológica para un crecimiento saludable de tus plantas.",
+        "price": 15,
+        "discountPercentage": 5,
+        "rating": 4.8,
+        "stock": 60,
+        "brand": "SoilPlus",
+        "category": "fertilizantes-y-sustratos",
+        "thumbnail": "https://via.placeholder.com/150?text=Sustrato+Organico",
+        "images": [
+            "https://via.placeholder.com/300?text=Sustrato+Organico+1",
+            "https://via.placeholder.com/300?text=Sustrato+Organico+2"
+        ]
+    },
+    {
+        "id": 37,
+        "title": "Fertilizante Líquido",
+        "description": "Fertilizante de rápida absorción que estimula el crecimiento de tus plantas.",
+        "price": 18,
+        "discountPercentage": 6,
+        "rating": 4.7,
+        "stock": 55,
+        "brand": "SoilPlus",
+        "category": "fertilizantes-y-sustratos",
+        "thumbnail": "https://via.placeholder.com/150?text=Fertilizante+Liquido",
+        "images": [
+            "https://via.placeholder.com/300?text=Fertilizante+Liquido+1",
+            "https://via.placeholder.com/300?text=Fertilizante+Liquido+2"
+        ]
+    },
+    {
+        "id": 38,
+        "title": "Compost Natural",
+        "description": "Producto ecológico que enriquece el suelo de forma natural y sostenible.",
+        "price": 12,
+        "discountPercentage": 5,
+        "rating": 4.6,
+        "stock": 70,
+        "brand": "SoilPlus",
+        "category": "fertilizantes-y-sustratos",
+        "thumbnail": "https://via.placeholder.com/150?text=Compost+Natural",
+        "images": [
+            "https://via.placeholder.com/300?text=Compost+Natural+1",
+            "https://via.placeholder.com/300?text=Compost+Natural+2"
+        ]
+    },
+    {
+        "id": 39,
+        "title": "Mezcla de Sustrato Premium",
+        "description": "Sustrato de alta calidad, ideal para plantas exigentes y jardines profesionales.",
+        "price": 20,
+        "discountPercentage": 7,
+        "rating": 4.9,
+        "stock": 50,
+        "brand": "SoilPlus",
+        "category": "fertilizantes-y-sustratos",
+        "thumbnail": "https://via.placeholder.com/150?text=Sustrato+Premium",
+        "images": [
+            "https://via.placeholder.com/300?text=Sustrato+Premium+1",
+            "https://via.placeholder.com/300?text=Sustrato+Premium+2"
+        ]
+    },
+    {
+        "id": 40,
+        "title": "Fertilizante de Liberación Lenta",
+        "description": "Aporta nutrientes de forma gradual para un crecimiento continuo y equilibrado.",
+        "price": 22,
+        "discountPercentage": 8,
+        "rating": 4.8,
+        "stock": 45,
+        "brand": "SoilPlus",
+        "category": "fertilizantes-y-sustratos",
+        "thumbnail": "https://via.placeholder.com/150?text=Fertilizante+Lento",
+        "images": [
+            "https://via.placeholder.com/300?text=Fertilizante+Lento+1",
+            "https://via.placeholder.com/300?text=Fertilizante+Lento+2"
+        ]
+    },
+    {
+        "id": 41,
+        "title": "Tijeras de Podar",
+        "description": "Herramienta esencial para mantener tus plantas en óptimas condiciones con cortes precisos.",
+        "price": 18,
+        "discountPercentage": 5,
+        "rating": 4.7,
+        "stock": 35,
+        "brand": "GardenTool",
+        "category": "herramientas-de-jardineria",
+        "thumbnail": "https://via.placeholder.com/150?text=Tijeras+de+Podar",
+        "images": [
+            "https://via.placeholder.com/300?text=Tijeras+de+Podar+1",
+            "https://via.placeholder.com/300?text=Tijeras+de+Podar+2"
+        ]
+    },
+    {
+        "id": 42,
+        "title": "Pala de Jardín",
+        "description": "Pala robusta para cavar y trasladar tierra con facilidad, ideal para trabajos de jardinería.",
+        "price": 22,
+        "discountPercentage": 6,
+        "rating": 4.6,
+        "stock": 30,
+        "brand": "GardenTool",
+        "category": "herramientas-de-jardineria",
+        "thumbnail": "https://via.placeholder.com/150?text=Pala+de+Jardin",
+        "images": [
+            "https://via.placeholder.com/300?text=Pala+de+Jardin+1",
+            "https://via.placeholder.com/300?text=Pala+de+Jardin+2"
+        ]
+    },
+    {
+        "id": 43,
+        "title": "Rastrillo de Mano",
+        "description": "Ideal para recoger hojas y pequeños residuos, facilitando la limpieza del jardín.",
+        "price": 15,
+        "discountPercentage": 4,
+        "rating": 4.5,
+        "stock": 40,
+        "brand": "GardenTool",
+        "category": "herramientas-de-jardineria",
+        "thumbnail": "https://via.placeholder.com/150?text=Rastrillo+de+Mano",
+        "images": [
+            "https://via.placeholder.com/300?text=Rastrillo+de+Mano+1",
+            "https://via.placeholder.com/300?text=Rastrillo+de+Mano+2"
+        ]
+    },
+    {
+        "id": 44,
+        "title": "Guantes de Jardinería",
+        "description": "Protege tus manos mientras trabajas en el jardín con estos cómodos guantes.",
+        "price": 12,
+        "discountPercentage": 5,
+        "rating": 4.7,
+        "stock": 50,
+        "brand": "GardenTool",
+        "category": "herramientas-de-jardineria",
+        "thumbnail": "https://via.placeholder.com/150?text=Guantes+de+Jardineria",
+        "images": [
+            "https://via.placeholder.com/300?text=Guantes+de+Jardineria+1",
+            "https://via.placeholder.com/300?text=Guantes+de+Jardineria+2"
+        ]
+    },
+    {
+        "id": 45,
+        "title": "Manguera Flexible",
+        "description": "Manguera duradera y flexible que garantiza un riego eficiente en cualquier zona del jardín.",
+        "price": 30,
+        "discountPercentage": 7,
+        "rating": 4.6,
+        "stock": 25,
+        "brand": "GardenTool",
+        "category": "herramientas-de-jardineria",
+        "thumbnail": "https://via.placeholder.com/150?text=Manguera+Flexible",
+        "images": [
+            "https://via.placeholder.com/300?text=Manguera+Flexible+1",
+            "https://via.placeholder.com/300?text=Manguera+Flexible+2"
+        ]
+    },
+    {
+        "id": 46,
+        "title": "Sistema de Riego por Goteo",
+        "description": "Optimiza el consumo de agua con este sistema de riego por goteo, perfecto para jardines.",
+        "price": 50,
+        "discountPercentage": 8,
+        "rating": 4.8,
+        "stock": 20,
+        "brand": "IrrigaTech",
+        "category": "sistemas-de-riego",
+        "thumbnail": "https://via.placeholder.com/150?text=Riego+por+Goteo",
+        "images": [
+            "https://via.placeholder.com/300?text=Riego+por+Goteo+1",
+            "https://via.placeholder.com/300?text=Riego+por+Goteo+2"
+        ]
+    },
+    {
+        "id": 47,
+        "title": "Aspersor Automático",
+        "description": "Riega tu jardín de manera uniforme con este aspersor automático e inteligente.",
+        "price": 45,
+        "discountPercentage": 7,
+        "rating": 4.7,
+        "stock": 18,
+        "brand": "IrrigaTech",
+        "category": "sistemas-de-riego",
+        "thumbnail": "https://via.placeholder.com/150?text=Aspersor+Automatico",
+        "images": [
+            "https://via.placeholder.com/300?text=Aspersor+Automatico+1",
+            "https://via.placeholder.com/300?text=Aspersor+Automatico+2"
+        ]
+    },
+    {
+        "id": 48,
+        "title": "Temporizador de Riego",
+        "description": "Programa el riego de tu jardín de forma automática con este práctico temporizador.",
+        "price": 35,
+        "discountPercentage": 6,
+        "rating": 4.6,
+        "stock": 25,
+        "brand": "IrrigaTech",
+        "category": "sistemas-de-riego",
+        "thumbnail": "https://via.placeholder.com/150?text=Temporizador+de+Riego",
+        "images": [
+            "https://via.placeholder.com/300?text=Temporizador+de+Riego+1",
+            "https://via.placeholder.com/300?text=Temporizador+de+Riego+2"
+        ]
+    },
+    {
+        "id": 49,
+        "title": "Kit de Riego Inteligente",
+        "description": "Sistema completo con sensores y programador, para un riego optimizado y sin esfuerzo.",
+        "price": 60,
+        "discountPercentage": 10,
+        "rating": 4.8,
+        "stock": 15,
+        "brand": "IrrigaTech",
+        "category": "sistemas-de-riego",
+        "thumbnail": "https://via.placeholder.com/150?text=Kit+de+Riego",
+        "images": [
+            "https://via.placeholder.com/300?text=Kit+de+Riego+1",
+            "https://via.placeholder.com/300?text=Kit+de+Riego+2"
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Riego por Microaspersión",
+        "description": "Ideal para jardines pequeños y zonas delicadas, este sistema de microaspersión distribuye el agua uniformemente.",
+        "price": 40,
+        "discountPercentage": 7,
+        "rating": 4.7,
+        "stock": 22,
+        "brand": "IrrigaTech",
+        "category": "sistemas-de-riego",
+        "thumbnail": "https://via.placeholder.com/150?text=Microaspersion",
+        "images": [
+            "https://via.placeholder.com/300?text=Microaspersion+1",
+            "https://via.placeholder.com/300?text=Microaspersion+2"
+        ]
+    },
+    {
+        "id": 51,
+        "title": "Fuente de Jardín",
+        "description": "Aporta elegancia y frescura a tu espacio exterior con esta fuente de diseño moderno.",
+        "price": 70,
+        "discountPercentage": 10,
+        "rating": 4.8,
+        "stock": 10,
+        "brand": "DecoGarden",
+        "category": "decoracion-jardin",
+        "thumbnail": "https://via.placeholder.com/150?text=Fuente+de+Jardin",
+        "images": [
+            "https://via.placeholder.com/300?text=Fuente+de+Jardin+1",
+            "https://via.placeholder.com/300?text=Fuente+de+Jardin+2"
+        ]
+    },
+    {
+        "id": 52,
+        "title": "Estatua de Buda",
+        "description": "Detalle decorativo que inspira paz y serenidad en tu jardín, ideal para espacios zen.",
+        "price": 55,
+        "discountPercentage": 8,
+        "rating": 4.7,
+        "stock": 12,
+        "brand": "DecoGarden",
+        "category": "decoracion-jardin",
+        "thumbnail": "https://via.placeholder.com/150?text=Estatua+de+Buda",
+        "images": [
+            "https://via.placeholder.com/300?text=Estatua+de+Buda+1",
+            "https://via.placeholder.com/300?text=Estatua+de+Buda+2"
+        ]
+    },
+    {
+        "id": 53,
+        "title": "Iluminación LED Solar",
+        "description": "Ilumina tu jardín de forma ecológica con estas luces LED solares, perfectas para crear ambientes únicos.",
+        "price": 45,
+        "discountPercentage": 7,
+        "rating": 4.6,
+        "stock": 20,
+        "brand": "DecoGarden",
+        "category": "decoracion-jardin",
+        "thumbnail": "https://via.placeholder.com/150?text=Iluminacion+LED+Solar",
+        "images": [
+            "https://via.placeholder.com/300?text=Iluminacion+LED+Solar+1",
+            "https://via.placeholder.com/300?text=Iluminacion+LED+Solar+2"
+        ]
+    },
+    {
+        "id": 54,
+        "title": "Móvil de Viento",
+        "description": "Añade movimiento y color a tu jardín con este móvil de viento decorativo y artesanal.",
+        "price": 35,
+        "discountPercentage": 5,
+        "rating": 4.5,
+        "stock": 18,
+        "brand": "DecoGarden",
+        "category": "decoracion-jardin",
+        "thumbnail": "https://via.placeholder.com/150?text=Movil+de+Viento",
+        "images": [
+            "https://via.placeholder.com/300?text=Movil+de+Viento+1",
+            "https://via.placeholder.com/300?text=Movil+de+Viento+2"
+        ]
+    },
+    {
+        "id": 55,
+        "title": "Banco de Jardín",
+        "description": "Banco resistente y cómodo, ideal para relajarte en tu jardín o terraza.",
+        "price": 80,
+        "discountPercentage": 9,
+        "rating": 4.7,
+        "stock": 8,
+        "brand": "DecoGarden",
+        "category": "decoracion-jardin",
+        "thumbnail": "https://via.placeholder.com/150?text=Banco+de+Jardin",
+        "images": [
+            "https://via.placeholder.com/300?text=Banco+de+Jardin+1",
+            "https://via.placeholder.com/300?text=Banco+de+Jardin+2"
+        ]
+    }
+]

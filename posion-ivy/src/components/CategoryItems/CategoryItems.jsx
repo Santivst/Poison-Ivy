@@ -4,6 +4,25 @@ import Card from '../Card/Card'
 
 import { colors } from '../../constants/colors'
 
+const CategoryItem = ({category, navigation}) => {
+  return (
+    <Card >
+      <Pressable onPress={() => navigation.navigate('ItemListCategory', {category})}>
+        <Text style={styles.text}>{category}</Text>
+      </Pressable>
+    </Card>
+  )
+}
+
+export default CategoryItem
+
+
+
+
+/*
+(Copiar todo en caso de falla)
+
+
 const CategoryItem = ({category, selectedCategory = () => {} }) => {
   return (
     <Card >
@@ -14,7 +33,7 @@ const CategoryItem = ({category, selectedCategory = () => {} }) => {
   )
 }
 
-export default CategoryItem
+*/
 
 const styles = StyleSheet.create({
     text: {

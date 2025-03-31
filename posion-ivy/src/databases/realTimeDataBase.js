@@ -1,0 +1,1 @@
+export const baseUrl = "https://proyecto-poison-ivy-default-rtdb.firebaseio.com/";

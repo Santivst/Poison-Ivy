@@ -2,8 +2,43 @@ import React from 'react'
 import { StyleSheet, Text, View, FlatList } from 'react-native'
 import CategoryItem from '../components/CategoryItems/CategoryItems'
 
-import categories from "../data/categories.json"
 import { colors } from '../constants/colors'
+
+
+//!Comentado por propósito de la clase 12
+// import categories from "../data/categories.json"
+
+
+
+//!NUEVO CLASE 12
+import { useGetCategoriesQuery } from '../services/shopServices.js'
+//
+
+
+const Home = ({navigation}) => {
+
+    //NUEVO CLASE 12
+    const {data: categories, error, isLoading} = useGetCategoriesQuery()
+    console.log(categories)
+    ///
+
+
+    return (
+        <View style={styles.flatListContainer}>
+            <FlatList
+            showsVerticalScrollIndicator= {false}
+            data={categories}
+            renderItem={({item}) => <CategoryItem 
+                category={item} 
+                navigation={navigation} />} // HAY QUE CAMBIAR EL "<Text></Text>" POR "<CategoryItem />" UNA VEZ ESTÉ TERMINADO
+            keyExtractor={element => element}>
+
+            </FlatList>
+        </View>
+    )
+}
+
+/*  (En caso de falla)
 
 const Home = ({setCategorySelected}) => {
     return (
@@ -20,6 +55,11 @@ const Home = ({setCategorySelected}) => {
         </View>
     )
 }
+
+*/
+
+
+
 
 export default Home
 

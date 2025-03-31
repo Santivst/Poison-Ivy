@@ -1,21 +1,26 @@
 import React, { useState } from 'react';
-import { StatusBar } from 'expo-status-bar';
 import { Platform, SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 import {useFonts} from 'expo-font';
 
+import Header from './src/components/Header/Header';
 import Home from './src/screens/Home';
 import ItemListCategory from './src/screens/ItemListCategory';
 import ItemDetail from './src/screens/ItemDetail';
-import Header from './src/components/Header/Header';
+import { colors } from './src/constants/colors';
 
 import Navigator from './src/navigation/Navigator';
 
-import { colors } from './src/constants/colors';
+//NUEVO CLASE 12
+
+import { Provider } from 'react-redux';
+import store from './src/store'
+
+///
+
 
 
 export default function App() {
-  const [categorySelected, setCategorySelected] = useState("");
-  const [itemIdSelected, setItemIdSelected] = useState("");
 
 
   // const [fontsLoaded, fontError] = useFonts({
@@ -28,6 +33,24 @@ export default function App() {
 
   // if(fontsLoaded && !fontError) {
     return (
+
+        <Provider store={store}>
+          <Navigator/>
+        </Provider>
+
+    );
+  // }
+}
+
+
+/*
+(Justo debajo del export default en caso de falla)
+  const [categorySelected, setCategorySelected] = useState("");
+  const [itemIdSelected, setItemIdSelected] = useState("");
+
+
+(Dentro de return en caso de falla)
+
       <SafeAreaView style={styles.container}>
         <Header title="Categories" />
         {!categorySelected ? (
@@ -46,10 +69,8 @@ export default function App() {
         )}
         <StatusBar style="dark" />
       </SafeAreaView>
-    );
-  // }
-}
 
+*/
 
 const styles = StyleSheet.create({
   container: {

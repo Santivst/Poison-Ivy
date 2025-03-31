@@ -9,10 +9,9 @@
         "stock": 20,
         "brand": "GreenLife",
         "category": "plantas-de-interior",
-        "thumbnail": "https://via.placeholder.com/150?text=Monstera+Deliciosa",
+        "thumbnail": "../img/monstera_delicisoa.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Monstera+Deliciosa+1",
-            "https://via.placeholder.com/300?text=Monstera+Deliciosa+2"
+            "../img/monstera_delicisoa.jpg"
         ]
     },
     {
@@ -25,10 +24,9 @@
         "stock": 15,
         "brand": "GreenLife",
         "category": "plantas-de-interior",
-        "thumbnail": "https://via.placeholder.com/150?text=Ficus+Lyrata",
+        "thumbnail": "../img/ficus-lyrata.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Ficus+Lyrata+1",
-            "https://via.placeholder.com/300?text=Ficus+Lyrata+2"
+            "../img/ficus-lyrata.jpg"
         ]
     },
     {
@@ -41,10 +39,9 @@
         "stock": 10,
         "brand": "EcoPlants",
         "category": "plantas-de-interior",
-        "thumbnail": "https://via.placeholder.com/150?text=Calathea+Orbifolia",
+        "thumbnail": "../img/calathea-orbifolia.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Calathea+Orbifolia+1",
-            "https://via.placeholder.com/300?text=Calathea+Orbifolia+2"
+            "../img/calathea-orbifolia.jpg"
         ]
     },
     {
@@ -57,10 +54,9 @@
         "stock": 30,
         "brand": "EcoPlants",
         "category": "plantas-de-interior",
-        "thumbnail": "https://via.placeholder.com/150?text=Potos+Dorado",
+        "thumbnail": "../img/potos-dorado.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Potos+Dorado+1",
-            "https://via.placeholder.com/300?text=Potos+Dorado+2"
+            "../img/potos-dorado.jpg"
         ]
     },
     {
@@ -73,10 +69,9 @@
         "stock": 12,
         "brand": "UrbanGreen",
         "category": "plantas-de-interior",
-        "thumbnail": "https://via.placeholder.com/150?text=Palma+de+Salón",
+        "thumbnail": "../img/palma-de-salón.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Palma+de+Salón+1",
-            "https://via.placeholder.com/300?text=Palma+de+Salón+2"
+            "../img/palma-de-salón.jpg"
         ]
     },
     {
@@ -89,10 +84,9 @@
         "stock": 25,
         "brand": "GardenBloom",
         "category": "plantas-de-exterior",
-        "thumbnail": "https://via.placeholder.com/150?text=Rosa+de+Jardín",
+        "thumbnail": "../img/rosa-de-jardín.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Rosa+de+Jardín+1",
-            "https://via.placeholder.com/300?text=Rosa+de+Jardín+2"
+            "../img/rosa-de-jardín.jpg"
         ]
     },
     {
@@ -105,10 +99,9 @@
         "stock": 20,
         "brand": "GardenBloom",
         "category": "plantas-de-exterior",
-        "thumbnail": "https://via.placeholder.com/150?text=Hortensia",
+        "thumbnail": "../img/hortensia.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Hortensia+1",
-            "https://via.placeholder.com/300?text=Hortensia+2"
+            "../img/hortensia.jpg"
         ]
     },
     {
@@ -121,10 +114,9 @@
         "stock": 8,
         "brand": "NatureTree",
         "category": "plantas-de-exterior",
-        "thumbnail": "https://via.placeholder.com/150?text=Jacarandá",
+        "thumbnail": "../img/jacaranda.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Jacarandá+1",
-            "https://via.placeholder.com/300?text=Jacarandá+2"
+            "../img/jacaranda.jpg"
         ]
     },
     {
@@ -137,10 +129,9 @@
         "stock": 30,
         "brand": "NatureTree",
         "category": "plantas-de-exterior",
-        "thumbnail": "https://via.placeholder.com/150?text=Buganvilla",
+        "thumbnail": "../img/buganvilla.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Buganvilla+1",
-            "https://via.placeholder.com/300?text=Buganvilla+2"
+            "../img/buganvilla.jpg"
         ]
     },
     {
@@ -153,10 +144,9 @@
         "stock": 35,
         "brand": "GreenGarden",
         "category": "plantas-de-exterior",
-        "thumbnail": "https://via.placeholder.com/150?text=Lantana",
+        "thumbnail": "../img/lantana.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Lantana+1",
-            "https://via.placeholder.com/300?text=Lantana+2"
+            "../img/lantana.jpg"
         ]
     },
     {
@@ -169,10 +159,9 @@
         "stock": 40,
         "brand": "EcoHerbs",
         "category": "hierbas-aromaticas",
-        "thumbnail": "https://via.placeholder.com/150?text=Lavanda",
+        "thumbnail": "../img/lavanda.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Lavanda+1",
-            "https://via.placeholder.com/300?text=Lavanda+2"
+            "../img/lavanda.jpg"
         ]
     },
     {
@@ -185,10 +174,9 @@
         "stock": 50,
         "brand": "EcoHerbs",
         "category": "hierbas-aromaticas",
-        "thumbnail": "https://via.placeholder.com/150?text=Menta",
+        "thumbnail": "../img/menta.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Menta+1",
-            "https://via.placeholder.com/300?text=Menta+2"
+            "../img/menta.jpg"
         ]
     },
     {
@@ -201,10 +189,9 @@
         "stock": 45,
         "brand": "EcoHerbs",
         "category": "hierbas-aromaticas",
-        "thumbnail": "https://via.placeholder.com/150?text=Romero",
+        "thumbnail": "../img/romero.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Romero+1",
-            "https://via.placeholder.com/300?text=Romero+2"
+            "../img/romero.jpg"
         ]
     },
     {
@@ -217,10 +204,9 @@
         "stock": 60,
         "brand": "EcoHerbs",
         "category": "hierbas-aromaticas",
-        "thumbnail": "https://via.placeholder.com/150?text=Albahaca",
+        "thumbnail": "../img/albahaca.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Albahaca+1",
-            "https://via.placeholder.com/300?text=Albahaca+2"
+            "../img/albahaca.jpg"
         ]
     },
     {
@@ -233,10 +219,9 @@
         "stock": 55,
         "brand": "EcoHerbs",
         "category": "hierbas-aromaticas",
-        "thumbnail": "https://via.placeholder.com/150?text=Tomillo",
+        "thumbnail": "../img/tomillo.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Tomillo+1",
-            "https://via.placeholder.com/300?text=Tomillo+2"
+            "../img/tomillo.jpg"
         ]
     },
     {
@@ -249,10 +234,9 @@
         "stock": 25,
         "brand": "DesertBloom",
         "category": "cactus-y-suculentas",
-        "thumbnail": "https://via.placeholder.com/150?text=Echeveria+Elegans",
+        "thumbnail": "../img/echeveria-elegans.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Echeveria+Elegans+1",
-            "https://via.placeholder.com/300?text=Echeveria+Elegans+2"
+            "../img/echeveria-elegans.jpg"
         ]
     },
     {
@@ -265,10 +249,9 @@
         "stock": 30,
         "brand": "DesertBloom",
         "category": "cactus-y-suculentas",
-        "thumbnail": "https://via.placeholder.com/150?text=Aloe+Vera",
+        "thumbnail": "../img/aloe-vera.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Aloe+Vera+1",
-            "https://via.placeholder.com/300?text=Aloe+Vera+2"
+            "../img/aloe-vera.jpg"
         ]
     },
     {
@@ -281,10 +264,9 @@
         "stock": 20,
         "brand": "DesertBloom",
         "category": "cactus-y-suculentas",
-        "thumbnail": "https://via.placeholder.com/150?text=Cactus+Ferocactus",
+        "thumbnail": "../img/cactus-ferocactus.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Cactus+Ferocactus+1",
-            "https://via.placeholder.com/300?text=Cactus+Ferocactus+2"
+            "../img/cactus-ferocactus.jpg"
         ]
     },
     {
@@ -297,10 +279,9 @@
         "stock": 15,
         "brand": "DesertBloom",
         "category": "cactus-y-suculentas",
-        "thumbnail": "https://via.placeholder.com/150?text=Agave+Americana",
+        "thumbnail": "../img/agave-americana.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Agave+Americana+1",
-            "https://via.placeholder.com/300?text=Agave+Americana+2"
+            "../img/agave-americana.jpg"
         ]
     },
     {
@@ -313,10 +294,9 @@
         "stock": 28,
         "brand": "DesertBloom",
         "category": "cactus-y-suculentas",
-        "thumbnail": "https://via.placeholder.com/150?text=Sedum+Morganianum",
+        "thumbnail": "../img/sedum-morganianum.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Sedum+Morganianum+1",
-            "https://via.placeholder.com/300?text=Sedum+Morganianum+2"
+            "../img/sedum-morganianum.jpg"
         ]
     },
     {
@@ -329,10 +309,9 @@
         "stock": 10,
         "brand": "MiniNature",
         "category": "bonsais",
-        "thumbnail": "https://via.placeholder.com/150?text=Bonsai+Ficus",
+        "thumbnail": "../img/bonsai-de-ficus.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Bonsai+Ficus+1",
-            "https://via.placeholder.com/300?text=Bonsai+Ficus+2"
+            "../img/bonsai-de-ficus.jpg"
         ]
     },
     {
@@ -345,10 +324,9 @@
         "stock": 8,
         "brand": "MiniNature",
         "category": "bonsais",
-        "thumbnail": "https://via.placeholder.com/150?text=Bonsai+Pino",
+        "thumbnail": "../img/bonsai-de-pino.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Bonsai+Pino+1",
-            "https://via.placeholder.com/300?text=Bonsai+Pino+2"
+            "../img/bonsai-de-pino.jpg"
         ]
     },
     {
@@ -361,10 +339,9 @@
         "stock": 5,
         "brand": "MiniNature",
         "category": "bonsais",
-        "thumbnail": "https://via.placeholder.com/150?text=Bonsai+Arce",
+        "thumbnail": "../img/bonsai-de-arce.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Bonsai+Arce+1",
-            "https://via.placeholder.com/300?text=Bonsai+Arce+2"
+            "../img/bonsai-de-arce.jpg"
         ]
     },
     {
@@ -377,10 +354,9 @@
         "stock": 7,
         "brand": "MiniNature",
         "category": "bonsais",
-        "thumbnail": "https://via.placeholder.com/150?text=Bonsai+Olmo",
+        "thumbnail": "../img/bonsai-de-olmo.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Bonsai+Olmo+1",
-            "https://via.placeholder.com/300?text=Bonsai+Olmo+2"
+            "../img/bonsai-de-olmo.jpg"
         ]
     },
     {
@@ -393,10 +369,9 @@
         "stock": 6,
         "brand": "MiniNature",
         "category": "bonsais",
-        "thumbnail": "https://via.placeholder.com/150?text=Bonsai+Junipero",
+        "thumbnail": "../img/bonsai-de-junipero.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Bonsai+Junipero+1",
-            "https://via.placeholder.com/300?text=Bonsai+Junipero+2"
+            "../img/bonsai-de-junipero.jpg"
         ]
     },
     {
@@ -409,10 +384,9 @@
         "stock": 40,
         "brand": "BloomArt",
         "category": "flores",
-        "thumbnail": "https://via.placeholder.com/150?text=Rosa+Roja",
+        "thumbnail": "../img/rosa-roja.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Rosa+Roja+1",
-            "https://via.placeholder.com/300?text=Rosa+Roja+2"
+            "../img/rosa-roja.jpg"
         ]
     },
     {
@@ -425,10 +399,9 @@
         "stock": 35,
         "brand": "BloomArt",
         "category": "flores",
-        "thumbnail": "https://via.placeholder.com/150?text=Tulipan+Amarillo",
+        "thumbnail": "../img/tulipan_amarillo.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Tulipan+Amarillo+1",
-            "https://via.placeholder.com/300?text=Tulipan+Amarillo+2"
+            "../img/tulipan_amarillo.jpg"
         ]
     },
     {
@@ -441,10 +414,9 @@
         "stock": 30,
         "brand": "BloomArt",
         "category": "flores",
-        "thumbnail": "https://via.placeholder.com/150?text=Lirio+Blanco",
+        "thumbnail": "../img/lirio-blanco.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Lirio+Blanco+1",
-            "https://via.placeholder.com/300?text=Lirio+Blanco+2"
+            "../img/lirio-blanco.jpg"
         ]
     },
     {
@@ -457,10 +429,9 @@
         "stock": 20,
         "brand": "BloomArt",
         "category": "flores",
-        "thumbnail": "https://via.placeholder.com/150?text=Orquidea+Violeta",
+        "thumbnail": "../img/orquiea-violeta.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Orquidea+Violeta+1",
-            "https://via.placeholder.com/300?text=Orquidea+Violeta+2"
+            "../img/orquiea-violeta.jpg"
         ]
     },
     {
@@ -473,10 +444,9 @@
         "stock": 45,
         "brand": "BloomArt",
         "category": "flores",
-        "thumbnail": "https://via.placeholder.com/150?text=Geranio",
+        "thumbnail": "../img/geranio.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Geranio+1",
-            "https://via.placeholder.com/300?text=Geranio+2"
+            "../img/geranio.jpg"
         ]
     },
     {
@@ -489,10 +459,9 @@
         "stock": 50,
         "brand": "DecoPlant",
         "category": "macetas-y-accesorios",
-        "thumbnail": "https://via.placeholder.com/150?text=Maceta+de+Ceramica",
+        "thumbnail": "../img/maceta-de-ceramica.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Maceta+de+Ceramica+1",
-            "https://via.placeholder.com/300?text=Maceta+de+Ceramica+2"
+            "../img/maceta-de-ceramica.jpg"
         ]
     },
     {
@@ -505,10 +474,9 @@
         "stock": 40,
         "brand": "DecoPlant",
         "category": "macetas-y-accesorios",
-        "thumbnail": "https://via.placeholder.com/150?text=Maceta+Colgante",
+        "thumbnail": "../img/maceta-colgante.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Maceta+Colgante+1",
-            "https://via.placeholder.com/300?text=Maceta+Colgante+2"
+            "../img/maceta-colgante.jpg"
         ]
     },
     {
@@ -521,10 +489,9 @@
         "stock": 30,
         "brand": "DecoPlant",
         "category": "macetas-y-accesorios",
-        "thumbnail": "https://via.placeholder.com/150?text=Jardinera+Minimalista",
+        "thumbnail": "../img/jardinera-minimalista.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Jardinera+Minimalista+1",
-            "https://via.placeholder.com/300?text=Jardinera+Minimalista+2"
+            "../img/jardinera-minimalista.jpg"
         ]
     },
     {
@@ -537,10 +504,9 @@
         "stock": 20,
         "brand": "DecoPlant",
         "category": "macetas-y-accesorios",
-        "thumbnail": "https://via.placeholder.com/150?text=Maceta+Autoirrigable",
+        "thumbnail": "../img/maceta-autoirrigable.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Maceta+Autoirrigable+1",
-            "https://via.placeholder.com/300?text=Maceta+Autoirrigable+2"
+            "../img/maceta-autoirrigable.jpg"
         ]
     },
     {
@@ -553,10 +519,9 @@
         "stock": 15,
         "brand": "DecoPlant",
         "category": "macetas-y-accesorios",
-        "thumbnail": "https://via.placeholder.com/150?text=Set+de+Accesorios",
+        "thumbnail": "../img/set-de-accesorios-para-plantas.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Set+de+Accesorios+1",
-            "https://via.placeholder.com/300?text=Set+de+Accesorios+2"
+            "../img/set-de-accesorios-para-plantas.jpg"
         ]
     },
     {
@@ -569,10 +534,9 @@
         "stock": 60,
         "brand": "SoilPlus",
         "category": "fertilizantes-y-sustratos",
-        "thumbnail": "https://via.placeholder.com/150?text=Sustrato+Organico",
+        "thumbnail": "../img/sustrato-organico.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Sustrato+Organico+1",
-            "https://via.placeholder.com/300?text=Sustrato+Organico+2"
+            "../img/sustrato-organico.jpg"
         ]
     },
     {
@@ -585,10 +549,9 @@
         "stock": 55,
         "brand": "SoilPlus",
         "category": "fertilizantes-y-sustratos",
-        "thumbnail": "https://via.placeholder.com/150?text=Fertilizante+Liquido",
+        "thumbnail": "../img/fertilizante-liquido.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Fertilizante+Liquido+1",
-            "https://via.placeholder.com/300?text=Fertilizante+Liquido+2"
+            "../img/fertilizante-liquido.jpg"
         ]
     },
     {
@@ -601,10 +564,9 @@
         "stock": 70,
         "brand": "SoilPlus",
         "category": "fertilizantes-y-sustratos",
-        "thumbnail": "https://via.placeholder.com/150?text=Compost+Natural",
+        "thumbnail": "../img/compost-natural.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Compost+Natural+1",
-            "https://via.placeholder.com/300?text=Compost+Natural+2"
+            "../img/compost-natural.jpg"
         ]
     },
     {
@@ -617,10 +579,9 @@
         "stock": 50,
         "brand": "SoilPlus",
         "category": "fertilizantes-y-sustratos",
-        "thumbnail": "https://via.placeholder.com/150?text=Sustrato+Premium",
+        "thumbnail": "../img/mezcla-de-sustrato-premium.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Sustrato+Premium+1",
-            "https://via.placeholder.com/300?text=Sustrato+Premium+2"
+            "../img/mezcla-de-sustrato-premium.jpg"
         ]
     },
     {
@@ -633,10 +594,9 @@
         "stock": 45,
         "brand": "SoilPlus",
         "category": "fertilizantes-y-sustratos",
-        "thumbnail": "https://via.placeholder.com/150?text=Fertilizante+Lento",
+        "thumbnail": "../img/fertilizante-de-liberacion-lenta.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Fertilizante+Lento+1",
-            "https://via.placeholder.com/300?text=Fertilizante+Lento+2"
+            "../img/fertilizante-de-liberacion-lenta.jpg"
         ]
     },
     {
@@ -649,10 +609,9 @@
         "stock": 35,
         "brand": "GardenTool",
         "category": "herramientas-de-jardineria",
-        "thumbnail": "https://via.placeholder.com/150?text=Tijeras+de+Podar",
+        "thumbnail": "../img/tijeras-de-podar.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Tijeras+de+Podar+1",
-            "https://via.placeholder.com/300?text=Tijeras+de+Podar+2"
+            "../img/tijeras-de-podar.jpg"
         ]
     },
     {
@@ -665,10 +624,9 @@
         "stock": 30,
         "brand": "GardenTool",
         "category": "herramientas-de-jardineria",
-        "thumbnail": "https://via.placeholder.com/150?text=Pala+de+Jardin",
+        "thumbnail": "../img/pala-de-jardín.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Pala+de+Jardin+1",
-            "https://via.placeholder.com/300?text=Pala+de+Jardin+2"
+            "../img/pala-de-jardín.jpg"
         ]
     },
     {
@@ -681,10 +639,9 @@
         "stock": 40,
         "brand": "GardenTool",
         "category": "herramientas-de-jardineria",
-        "thumbnail": "https://via.placeholder.com/150?text=Rastrillo+de+Mano",
+        "thumbnail": "../img/rastrillo-de-mano.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Rastrillo+de+Mano+1",
-            "https://via.placeholder.com/300?text=Rastrillo+de+Mano+2"
+            "../img/rastrillo-de-mano.jpg"
         ]
     },
     {
@@ -697,10 +654,9 @@
         "stock": 50,
         "brand": "GardenTool",
         "category": "herramientas-de-jardineria",
-        "thumbnail": "https://via.placeholder.com/150?text=Guantes+de+Jardineria",
+        "thumbnail": "../img/guantes-de-jardinería.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Guantes+de+Jardineria+1",
-            "https://via.placeholder.com/300?text=Guantes+de+Jardineria+2"
+            "../img/guantes-de-jardinería.jpg"
         ]
     },
     {
@@ -713,10 +669,9 @@
         "stock": 25,
         "brand": "GardenTool",
         "category": "herramientas-de-jardineria",
-        "thumbnail": "https://via.placeholder.com/150?text=Manguera+Flexible",
+        "thumbnail": "../img/manguera-flexible.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Manguera+Flexible+1",
-            "https://via.placeholder.com/300?text=Manguera+Flexible+2"
+            "../img/manguera-flexible.jpg"
         ]
     },
     {
@@ -729,10 +684,9 @@
         "stock": 20,
         "brand": "IrrigaTech",
         "category": "sistemas-de-riego",
-        "thumbnail": "https://via.placeholder.com/150?text=Riego+por+Goteo",
+        "thumbnail": "../img/sistema-de-riego-por-goteo.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Riego+por+Goteo+1",
-            "https://via.placeholder.com/300?text=Riego+por+Goteo+2"
+            "../img/sistema-de-riego-por-goteo.jpg"
         ]
     },
     {
@@ -745,10 +699,9 @@
         "stock": 18,
         "brand": "IrrigaTech",
         "category": "sistemas-de-riego",
-        "thumbnail": "https://via.placeholder.com/150?text=Aspersor+Automatico",
+        "thumbnail": "../img/aspersor-automático.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Aspersor+Automatico+1",
-            "https://via.placeholder.com/300?text=Aspersor+Automatico+2"
+            "../img/aspersor-automático.jpg"
         ]
     },
     {
@@ -761,10 +714,9 @@
         "stock": 25,
         "brand": "IrrigaTech",
         "category": "sistemas-de-riego",
-        "thumbnail": "https://via.placeholder.com/150?text=Temporizador+de+Riego",
+        "thumbnail": "../img/temporizador-de-riego.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Temporizador+de+Riego+1",
-            "https://via.placeholder.com/300?text=Temporizador+de+Riego+2"
+            "../img/temporizador-de-riego.jpg"
         ]
     },
     {
@@ -777,10 +729,9 @@
         "stock": 15,
         "brand": "IrrigaTech",
         "category": "sistemas-de-riego",
-        "thumbnail": "https://via.placeholder.com/150?text=Kit+de+Riego",
+        "thumbnail": "../img/kit-de-riego-inteligente.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Kit+de+Riego+1",
-            "https://via.placeholder.com/300?text=Kit+de+Riego+2"
+            "../img/kit-de-riego-inteligente.jpg"
         ]
     },
     {
@@ -793,10 +744,9 @@
         "stock": 22,
         "brand": "IrrigaTech",
         "category": "sistemas-de-riego",
-        "thumbnail": "https://via.placeholder.com/150?text=Microaspersion",
+        "thumbnail": "../img/riego-por-microaspersión.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Microaspersion+1",
-            "https://via.placeholder.com/300?text=Microaspersion+2"
+            "../img/riego-por-microaspersión.jpg"
         ]
     },
     {
@@ -809,10 +759,9 @@
         "stock": 10,
         "brand": "DecoGarden",
         "category": "decoracion-jardin",
-        "thumbnail": "https://via.placeholder.com/150?text=Fuente+de+Jardin",
+        "thumbnail": "../img/fuente-de-jardin.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Fuente+de+Jardin+1",
-            "https://via.placeholder.com/300?text=Fuente+de+Jardin+2"
+            "../img/fuente-de-jardin.jpg"
         ]
     },
     {
@@ -825,10 +774,9 @@
         "stock": 12,
         "brand": "DecoGarden",
         "category": "decoracion-jardin",
-        "thumbnail": "https://via.placeholder.com/150?text=Estatua+de+Buda",
+        "thumbnail": "../img/estatua-de-buda.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Estatua+de+Buda+1",
-            "https://via.placeholder.com/300?text=Estatua+de+Buda+2"
+            "../img/estatua-de-buda.jpg"
         ]
     },
     {
@@ -841,10 +789,9 @@
         "stock": 20,
         "brand": "DecoGarden",
         "category": "decoracion-jardin",
-        "thumbnail": "https://via.placeholder.com/150?text=Iluminacion+LED+Solar",
+        "thumbnail": "../img/iluminacion-led-solar.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Iluminacion+LED+Solar+1",
-            "https://via.placeholder.com/300?text=Iluminacion+LED+Solar+2"
+            "../img/iluminacion-led-solar.jpg"
         ]
     },
     {
@@ -857,10 +804,9 @@
         "stock": 18,
         "brand": "DecoGarden",
         "category": "decoracion-jardin",
-        "thumbnail": "https://via.placeholder.com/150?text=Movil+de+Viento",
+        "thumbnail": "../img/movil-de-viento.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Movil+de+Viento+1",
-            "https://via.placeholder.com/300?text=Movil+de+Viento+2"
+            "../img/movil-de-viento.jpg"
         ]
     },
     {
@@ -873,10 +819,9 @@
         "stock": 8,
         "brand": "DecoGarden",
         "category": "decoracion-jardin",
-        "thumbnail": "https://via.placeholder.com/150?text=Banco+de+Jardin",
+        "thumbnail": "../img/banco-de-jardin.jpg",
         "images": [
-            "https://via.placeholder.com/300?text=Banco+de+Jardin+1",
-            "https://via.placeholder.com/300?text=Banco+de+Jardin+2"
+            "../img/banco-de-jardin.jpg"
         ]
     }
 ]

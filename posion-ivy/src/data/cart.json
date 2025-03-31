@@ -1,0 +1,36 @@
+[
+    {
+        "id": 1,
+        "title": "Monstera Deliciosa",
+        "description": "Planta tropical de interior con hojas grandes y decorativas, ideal para dar un toque exótico a tu hogar.",
+        "price": 35,
+        "discountPercentage": 10,
+        "rating": 4.8,
+        "stock": 20,
+        "brand": "GreenLife",
+        "category": "plantas-de-interior",
+        "thumbnail": "https://via.placeholder.com/150?text=Monstera+Deliciosa",
+        "images": [
+            "https://via.placeholder.com/300?text=Monstera+Deliciosa+1",
+            "https://via.placeholder.com/300?text=Monstera+Deliciosa+2"
+        ], 
+    "quantity": 2
+    },
+    {
+        "id": 2,
+        "title": "Ficus Lyrata",
+        "description": "Elegante planta de interior con hojas grandes y brillantes, perfecta para espacios modernos.",
+        "price": 45,
+        "discountPercentage": 8,
+        "rating": 4.7,
+        "stock": 15,
+        "brand": "GreenLife",
+        "category": "plantas-de-interior",
+        "thumbnail": "https://via.placeholder.com/150?text=Ficus+Lyrata",
+        "images": [
+            "https://via.placeholder.com/300?text=Ficus+Lyrata+1",
+            "https://via.placeholder.com/300?text=Ficus+Lyrata+2"
+        ],
+        "quantity": 1
+    }
+]
