@@ -5,6 +5,7 @@ import { baseUrl } from '../databases/realTimeDataBase'
 export const shopApi = createApi({
     reducerPath: 'shopApi',
     baseQuery: fetchBaseQuery({ baseUrl: baseUrl }),
+    tagTypes: ["profileImageGet", "locationGet"],  // <-- AGREGAR ESTO
     endpoints: (builder) => ({
         getCategories: builder.query({
             query: () => `categories.json`

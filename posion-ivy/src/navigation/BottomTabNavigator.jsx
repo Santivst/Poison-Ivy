@@ -12,6 +12,12 @@ import HomeStackNavigator from './HomeStackNavigator';
 import CartStackNavigator from './CartStackNavigator'
 import OrderStackNavigator from './OrderStackNavigator'
 
+
+//! NUEVO CLASE 14
+import MyProfileStackNavigator from './MyProfileStackNavigator';
+///
+
+
 import CartTemp from '../screens/CartTemp'
 import OrderTemp from '../screens/OrdersTemp'
 
@@ -74,6 +80,24 @@ const BottomTabNavigator = () => {
                             <View>
                                 <FontAwesome5
                                     name="receipt"
+                                    size={24}
+                                    color={focused ? "black" : colors.tertiary}
+                                />
+                            </View>
+                        );
+                    },
+                }}
+            />
+            {/* Agregar el tab para el perfil */}
+            <Tab.Screen
+                name="My Profile"
+                component={MyProfileStackNavigator}
+                options={{
+                    tabBarIcon: ({ focused }) => {
+                        return (
+                            <View>
+                                <Ionicons
+                                    name="person-circle"
                                     size={24}
                                     color={focused ? "black" : colors.tertiary}
                                 />
