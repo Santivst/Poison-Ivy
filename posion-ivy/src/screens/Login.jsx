@@ -9,6 +9,15 @@ import { useDispatch } from 'react-redux';
 import { useSignInMutation } from '../services/authService';
 import { setUser } from '../features/user/userSlice';
 
+
+//NUEVO CLASE 16
+
+import { useDB } from '../hooks/useDB';
+
+//
+
+
+
 const Login = ({ navigation }) => {
 
     const dispatch = useDispatch();
@@ -17,17 +26,36 @@ const Login = ({ navigation }) => {
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
 
+    //NUEVO CLASE 16
+
+    const { insertSession } = useDB();
+
+    //
+
+    //!FRAGMENTO CAMBIADO EN CLASE 16
     useEffect(() => {
         if (result.isSuccess) {
-            dispatch(
-                setUser({
-                    email: result.data.email,
-                    token: result.data.idToken,
-                    localId: result.data.localId
-                })
-            )
+            (async () => {
+                try {
+                    const response = await insertSession({
+                        email: result.data.email,
+                        localId: result.data.localId,
+                        token: result.data.idToken
+                    })
+                    dispatch(
+                        setUser({
+                            email: result.data.email,
+                            idToken: result.data.idToken,
+                            localId: result.data.localId,
+                        })
+                    );
+                } catch (err) {
+                    console.log(err)
+                }
+            })()
         }
-    }, [result])
+    }, [result]);  
+    // 
 
 
     const onSubmit = () => {

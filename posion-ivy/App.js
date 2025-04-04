@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Platform, SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import {useFonts} from 'expo-font';
@@ -18,9 +18,32 @@ import store from './src/store'
 
 ///
 
+//NUEVO CLASE 16
+
+import { useDB } from './src/hooks/useDB';
+
+//import { initDB } from './src/persistence';
+
+//
+
 
 
 export default function App() {
+  // const [fontsLoaded, fontError] = useFonts({
+  //   Josefin: require("./assets/JosefinSans-Regular.ttf"),
+  // });
+
+  //NUEVO CLASE 16
+
+  // inicializar base de session
+  const { initDB } = useDB();
+
+  useEffect(() => {
+    initDB();
+  }, []);
+
+  //
+
 
 
   // const [fontsLoaded, fontError] = useFonts({
