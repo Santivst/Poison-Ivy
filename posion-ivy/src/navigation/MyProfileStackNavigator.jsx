@@ -1,11 +1,8 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
 
 import MyProfile from '../screens/MyProfile'
 import ImageSelector from '../screens/ImageSelector'
-
-
-//NUEVO CLASE 15
 import ListAddress from '../screens/ListAdress'
 import LocationSelector from '../screens/LocationSelector'
 

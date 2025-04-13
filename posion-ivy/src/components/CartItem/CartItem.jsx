@@ -1,12 +1,18 @@
-// NUEVO CALSE 10
-
-
-import { StyleSheet, Text, View } from "react-native";
 import React from "react";
+import { Pressable, StyleSheet, Text, View } from "react-native";
 import { colors } from "../../constants/colors.js";
 import { Entypo } from "@expo/vector-icons";
 
+import { removeCartItem } from "../../features/cart/cartSlice.js";
+import { useDispatch } from "react-redux";
+
 const CartItem = ({ cartItem }) => {
+    const dispatch = useDispatch();
+    
+    const handleRemove = () => {
+        dispatch(removeCartItem(cartItem.id));
+    };
+
     return (
         <View style={styles.card} onPress={() => { }}>
             <View style={styles.textContainer}>
@@ -16,7 +22,17 @@ const CartItem = ({ cartItem }) => {
                 <Text style={styles.text2}>{cartItem.brand}</Text>
                 <Text style={styles.text2}>${cartItem.price}</Text>
             </View>
-            <Entypo name="trash" size={30} color="black" />
+            <Pressable
+                onPress={handleRemove}
+                style={({ pressed }) => [
+                    {
+                        transform: [{ scale: pressed ? 0.95 : 1 }],
+                        opacity: pressed ? 0.6 : 1,
+                    },
+                ]}
+            >
+                <Entypo name="trash" size={30} color="black" />
+            </Pressable>
         </View>
     );
 };

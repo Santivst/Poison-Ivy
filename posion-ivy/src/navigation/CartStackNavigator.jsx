@@ -1,8 +1,5 @@
-// NUEVO, CLASE 10
-
 import React from "react";
 import Cart from "../screens/Cart";
-//import CartTemp from "../screens/CartTemp";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 const Stack = createNativeStackNavigator();

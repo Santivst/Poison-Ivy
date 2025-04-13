@@ -1,44 +1,21 @@
-// NUEVO, CLASE 10
-
-import { FlatList, Pressable, StyleSheet, Text, View } from "react-native";
 import React from "react";
-import CartItem from "../components/CartItem/CartItem"
-
-
-
-//* COMENTADO POR PROPÓSITOS DE AFTERCLASS04
-//import CartData from "../data/cart.json";
-///
-
-//! NUEVO AFTERCLASS04
+import { FlatList, Pressable, StyleSheet, Text, View } from "react-native";
 import { useSelector } from "react-redux";
+import { colors } from "../constants/colors";
+
+import CartItem from "../components/CartItem/CartItem"
 import { usePostOrderMutation } from "../services/shopServices"; 
-//
+
+
 
 const Cart = () => {
-    //* COMENTADO POR PROPÓSITOS DE AFTERCLASS04
-    // const total = CartData.reduce(
-    //     (acumulador, currentItem) =>
-    //         (acumulador += currentItem.price * currentItem.quantity),
-    //     0
-    // );
-
-    // let total2 = 0;
-    // for (const currentItem of CartData) {
-    //     console.log(currentItem.id);
-    //     total2 += currentItem.price * currentItem.quantity;
-    // }
-    ///
-
-    //! NUEVO AFTERCLASS04
     const { items:CartData, total } = useSelector((state)=> state.cart.value)
     const [triggerPostOrder, result] =usePostOrderMutation()
-
+    const {localId} = useSelector( state => state.auth.value)
 
     onConfirmOrder = () => {
-        triggerPostOrder({items: CartData, user:"Luka", total})
+        triggerPostOrder({items: CartData, user:localId, total})
     }
-    ///
 
 
     return (
@@ -51,7 +28,7 @@ const Cart = () => {
                 }}
             />
             <View style={styles.totalContainer}>
-                <Pressable onPress={onConfirmOrder}>
+                <Pressable onPress={onConfirmOrder} style={styles.pressable}>
                     <Text>Confirm</Text>
                 </Pressable>
                 <Text>Total: ${total}</Text>
@@ -66,6 +43,7 @@ const styles = StyleSheet.create({
     container: {
         justifyContent: "space-between",
         flex: 1,
+        flexDirection: "column",
         marginBottom: 120,
     },
     totalContainer: {
@@ -73,4 +51,11 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
     },
+    pressable: {
+        backgroundColor: colors.primary,
+        color: "black",
+        padding: 5,
+        borderRadius: 5,
+        margin: 10
+    }
 });

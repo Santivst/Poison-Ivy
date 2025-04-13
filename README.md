@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+# PoisonIvy – Tu tienda de plantas y jardinería
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Hola! Este proyecto se llama **PoisonIvy**. Se trata de un ecommerce de plantas y productos de jardinería desarrollado con Expo y React Native. Esta aplicación fue creada por **Santiago Barreto** como entrega a la propuesta del curso de desarrollo de aplicaciones de Coderhouse.
 
-## Get started
+## 🌱 ¿Qué es PoisonIvy?
 
-1. Install dependencies
+PoisonIvy es una aplicación móvil pensada para amantes de las plantas y la jardinería. Permite explorar productos, ver sus detalles, agregarlos al carrito y realizar pedidos. Además, gestiona perfiles de usuarios, direcciones con geolocalización y almacena toda la información en Firebase.
 
-   ```bash
-   npm install
-   ```
+Este proyecto nace desde el cariño que comparto junto con mi madre por las plantas. Quise reflejar ese vínculo en un proyecto en forma de una tienda online donde, quien sea que quisiera, pudiera adquirir plantas con comodidad desde su celular.
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🛠️ Tecnologías utilizadas
 
-In the output, you'll find options to open the app in a
+Estas son las tecnologías y librerías que componen el stack del proyecto:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Frameworks y plataformas
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- **Expo** – Framework para desarrollo React Native con herramientas integradas
+- **React Native** – Biblioteca para construir interfaces móviles nativas
+- **Firebase** – Backend como servicio para autenticación, base de datos, almacenamiento y más
 
-## Get a fresh project
+### Navegación
 
-When you're ready, run:
+- `@react-navigation/native`
+- `@react-navigation/native-stack`
+- `@react-navigation/bottom-tabs`
+
+### Manejo de estado
+
+- `@reduxjs/toolkit`
+- `react-redux`
+- `@redux-devtools/core`
+
+### Librerías de Expo
+
+- `expo-file-system`
+- `expo-image-picker`
+- `expo-location`
+- `expo-media-library`
+- `expo-sqlite`
+- `expo-status-bar`
+
+### Validaciones
+
+- `yup`
+
+### Compatibilidad Web
+
+- `react-dom`
+- `react-native-web`
+
+---
+
+## 📦 Instalación y ejecución
+
+1. Clonar el repositorio
+2. Instalar las dependencias:
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📌 Consideraciones
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. ⚠️ Problema con la ventana de órdenes:
+Las órdenes se registran correctamente en Firebase, pero por alguna razón no se muestran en la pestaña correspondiente de la app. Intenté varias soluciones y revisé el código, pero como no aparece ningún error en la consola, no logré ubicar con exactitud el problema.
+2. Google Maps API:
+Para la funcionalidad de localización utilicé la googleMapsApiKey compartida por el profesor en clase, ya que no pude crear una propia por falta de acceso o permisos adecuados.

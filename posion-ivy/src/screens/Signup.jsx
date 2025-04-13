@@ -1,15 +1,13 @@
-import { StyleSheet, Text, View, Pressable } from 'react-native'
 import React, { useEffect, useState } from 'react'
-import { colors } from "../constants/colors.js";
-
+import { StyleSheet, Text, View, Pressable } from 'react-native'
 import { useDispatch } from 'react-redux';
-import { useSignUpMutation } from '../services/authService';
-import { setUser } from '../features/user/userSlice';
 
-
+import { colors } from "../constants/colors.js";
 import InputForm from '../components/InputForm/InputForm'
 import SubmitButton from '../components/SubmitButton/SubmitButton'
-
+import { useSignUpMutation } from '../services/authService';
+import { setUser } from '../features/user/userSlice';
+import { signupSchema } from '../validations/signupSchema.js';
 
 
 
@@ -42,11 +40,14 @@ const Signup = ({ navigation }) => {
             setErrorMail('')
             setErrorPassword('')
             setErrorConfirmPassword('')
+            signupSchema.validateSync({
+                email, password, confirmPassword
+            })
             triggerSignUp({ email, password, returnSecureToken: true })
-        } catch (err) {
-            console.log(err);
-            console.log(err.path)
-            console.log(err.message)
+        } catch (error) {
+            console.log(error);
+            console.log(error.path)
+            console.log(error.message)
             switch (error.path) {
                 case 'email':
                     setErrorMail(error.message)

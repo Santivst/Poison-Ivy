@@ -1,8 +1,9 @@
 import React from 'react'
 import { Pressable, StyleSheet, Text, View } from 'react-native'
+import { colors } from '../../constants/colors'
+
 import Card from '../Card/Card'
 
-import { colors } from '../../constants/colors'
 
 const CategoryItem = ({category, navigation}) => {
   return (
@@ -17,23 +18,6 @@ const CategoryItem = ({category, navigation}) => {
 export default CategoryItem
 
 
-
-
-/*
-(Copiar todo en caso de falla)
-
-
-const CategoryItem = ({category, selectedCategory = () => {} }) => {
-  return (
-    <Card >
-      <Pressable onPress={() => selectedCategory(category)}>
-        <Text style={styles.text}>{category}</Text>
-      </Pressable>
-    </Card>
-  )
-}
-
-*/
 
 const styles = StyleSheet.create({
     text: {

@@ -1,9 +1,7 @@
-// NUEVO CLASE 10
-
-import { StyleSheet, Text, View } from "react-native";
-import { Feather } from "@expo/vector-icons";
 import React from "react";
+import { StyleSheet, Text, View } from "react-native";
 import { colors } from "../../constants/colors.js";
+import { Feather } from "@expo/vector-icons";
 
 const OrderItem = ({ order }) => {
     const total = order.items.reduce(
@@ -14,8 +12,8 @@ const OrderItem = ({ order }) => {
     return (
         <View style={styles.card} onPress={() => { }}>
             <View style={styles.textContainer}>
-                <Text style={styles.text}>
-                    {new Date(order.createdAt).toLocaleString()}
+                <Text style={styles.text}> Order -
+                    {new Date().toLocaleString()}
                 </Text>
                 <Text style={styles.text2}>${total}</Text>
             </View>

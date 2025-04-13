@@ -4,59 +4,36 @@ import { useDispatch, useSelector } from 'react-redux'
 
 import AddButton from '../components/AddButton/AddButton'
 import { useGetProfileImageQuery } from '../services/shopServices.js'
-
-
-//NUEVO CLASE 16
-
 import { clearUser } from '../features/user/userSlice.js'
 import { useDB } from '../hooks/useDB.js'
 
-//
 
-//NUEVO CLASE 16
-
-
-//
 
 const MyProfile = ({ navigation }) => {
-
     const { imageCamera, localId } = useSelector(state => state.auth.value)
     const { data: imageFromBase } = useGetProfileImageQuery(localId)
-
-    //NUEVO CLASE 16
-
     const { truncateSessionTable } = useDB()
+
     const dispatch = useDispatch()
-
-    //
-
-
 
     const launchCamera = () => {
         navigation.navigate('Image selector')
     }
-
     const launchLocation = async () => {
         navigation.navigate("List Address");
     };
 
-
-    //NUEVO CLASE 16
-
     const signOut = async () => {
         try {
             const response = await truncateSessionTable()
-            console.log(response)
             dispatch(clearUser())
         } catch (err) {
             console.log(err)
         }
     }
-
-    //
-
-
     const defaultImageRoute = "../../assets/defaultProfile.png"
+
+
     return (
         <View style={styles.container}>
             {imageFromBase || imageCamera ? (

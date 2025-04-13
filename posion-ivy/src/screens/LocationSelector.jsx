@@ -1,16 +1,15 @@
-import { StyleSheet, Text, View } from "react-native";
 import React, { useEffect, useState } from "react";
+import { StyleSheet, Text, View } from "react-native";
 import * as Location from "expo-location";
+import { useSelector } from "react-redux";
 
 import AddButton from "../components/AddButton/AddButton";
-
 import MapPreview from "../components/MapPreview/MapPreview";
-
 import { colors } from "../constants/colors.js";
-
 import { googleMapsApiKey } from "../databases/googleMaps.js"
 import { usePostLocationMutation } from "../services/shopServices.js";
-import { useSelector } from "react-redux";
+
+
 
 const LocationSelector = ({ navigation }) => {
     const [location, setLocation] = useState({ latitude: "", longitude: "" });
@@ -34,15 +33,11 @@ const LocationSelector = ({ navigation }) => {
     };
 
     useEffect(() => {
-        //IIFE Function
         (async () => {
             try {
-
                 let { status } = await Location.requestForegroundPermissionsAsync();
-                console.log(status)
                 if (status === "granted") {
                     let location = await Location.getCurrentPositionAsync({});
-                    console.log(location);
                     setLocation({
                         latitude: location.coords.latitude,
                         longitude: location.coords.longitude,
@@ -60,7 +55,6 @@ const LocationSelector = ({ navigation }) => {
                 const url_reverse_geocode = `https://maps.googleapis.com/maps/api/geocode/json?latlng=${location.latitude},${location.longitude}&key=${googleMapsApiKey}`;
                 const response = await fetch(url_reverse_geocode);
                 const data = await response.json();
-                console.dir(data)
                 setAddress(data.results[0].formatted_address);
             } catch (err) {
                 console.log(err)

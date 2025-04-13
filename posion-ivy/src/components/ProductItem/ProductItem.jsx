@@ -1,14 +1,11 @@
-//!ACÁ HAY IMGS
-
-
 import { StyleSheet, Text, Image, Pressable, useWindowDimensions } from 'react-native'
 import React from 'react'
-import Card from '../Card/Card'
-
 import { colors } from '../../constants/colors'
 
+import Card from '../Card/Card'
 
-//Intento de arreglar las imagenes
+
+//Para cargar las imagenes las imagenes
 import { images } from "../../img/images.js"
 
 
@@ -16,14 +13,11 @@ const ProductItem = ({
     product,
     navigation,
 }) => {
-
-    // !IMPORTANTE
     // Obtiene las dimensiones de la ventana
     const { width, height } = useWindowDimensions();
     // Determina la orientación
     const orientation = width > height ? "portrait" : "landscape";
 
-    //!IMPORTANTE
     // Función para obtener la imagen
     const getImage = (imagePath) => {
         const parts = imagePath.split("/");
@@ -44,49 +38,12 @@ const ProductItem = ({
                     resizeMode="cover"
                     style={orientation === "portrait" ? styles.image : styles.imageLandscape}
                 />
-                {/* <Image
-                    resizeMode="cover"
-                    style={styles.image}
-                    source={{ uri: product.images[0] }}
-                /> */}
             </Pressable>
         </Card>
     )
 }
 
 export default ProductItem
-
-
-
-/*
-(Copiar todo en caso de falla)
-
-
-const ProductItem = ({
-    product,
-    setItemIdSelected = () => {},
-}) => {
-    return (
-        <Card style={styles.additionalStylesCard}>
-            <Pressable
-                style={styles.pressable}
-                onPress={() => setItemIdSelected(product.id)}
-            >
-                <Text style={styles.textCategory}>{product.title}</Text>
-                <Image
-                    resizeMode="cover"
-                    style={styles.image}
-                    source={{ uri: product.images[0] }}
-                />
-            </Pressable>
-        </Card>
-    )
-}
-
-
-
-*/
-
 
 
 

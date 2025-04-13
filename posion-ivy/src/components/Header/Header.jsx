@@ -3,10 +3,6 @@ import { StyleSheet, Text, View, useWindowDimensions } from 'react-native'
 import { colors } from '../../constants/colors'
 
 
-
-//Antes de la clase 10, todas las instancias de
-// "{route}" decían "{title}"
-
 const Header = ({route}) => {
   const {height, width} = useWindowDimensions()
   return (

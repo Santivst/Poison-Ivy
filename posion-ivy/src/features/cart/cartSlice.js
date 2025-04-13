@@ -12,12 +12,10 @@ export const cartSlice = createSlice({
     },
     reducers: {
         addCartItem: (state, { payload }) => {
-            //Logic to add product
             const productRepeated = state.value.items.find(
                 (item) => item.id === payload.id
             );
             if (productRepeated) {
-                console.log(productRepeated);
                 const itemsUpdated = state.value.items.map((item) => {
                     if (item.id === payload.id) {
                         item.quantity += payload.quantity;
@@ -51,7 +49,19 @@ export const cartSlice = createSlice({
             }
         },
         removeCartItem: (state, { payload }) => {
-            //Logic to remove product
+            const filteredItems = state.value.items.filter(
+                (item) => item.id !== payload
+            );
+            const total = filteredItems.reduce(
+                (acc, currentItem) => acc + currentItem.price * currentItem.quantity,
+                0
+            );
+            state.value = {
+                ...state.value,
+                items: filteredItems,
+                total,
+                updatedAt: new Date().toLocaleString(),
+            };
         },
     },
 });

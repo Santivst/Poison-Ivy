@@ -1,10 +1,6 @@
-// NUEVO, CLASE 10
-
 import React from "react";
 import { View, StyleSheet, SafeAreaView } from "react-native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-
-import { NavigationContainer } from "@react-navigation/native"; //Quizá haya que encerrar el return en uno de estos
 
 import Home from "../screens/Home";
 import ItemListCategory from "../screens/ItemListCategory";

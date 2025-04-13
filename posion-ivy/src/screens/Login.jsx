@@ -1,38 +1,25 @@
-import { StyleSheet, Text, View, Pressable } from 'react-native'
 import React, { useEffect, useState } from 'react'
-import { colors } from "../constants/colors.js";
+import { StyleSheet, Text, View, Pressable } from 'react-native'
+import { useDispatch } from 'react-redux';
 
+import { colors } from "../constants/colors.js";
 import InputForm from '../components/InputForm/InputForm'
 import SubmitButton from '../components/SubmitButton/SubmitButton'
-
-import { useDispatch } from 'react-redux';
 import { useSignInMutation } from '../services/authService';
 import { setUser } from '../features/user/userSlice';
-
-
-//NUEVO CLASE 16
-
 import { useDB } from '../hooks/useDB';
 
-//
 
 
 
 const Login = ({ navigation }) => {
-
     const dispatch = useDispatch();
-    const [triggerSignIn, result] = useSignInMutation()
 
+    const [triggerSignIn, result] = useSignInMutation()
     const [email, setEmail] = useState();
     const [password, setPassword] = useState();
-
-    //NUEVO CLASE 16
-
     const { insertSession } = useDB();
 
-    //
-
-    //!FRAGMENTO CAMBIADO EN CLASE 16
     useEffect(() => {
         if (result.isSuccess) {
             (async () => {
@@ -55,12 +42,11 @@ const Login = ({ navigation }) => {
             })()
         }
     }, [result]);  
-    // 
-
 
     const onSubmit = () => {
         triggerSignIn({ email, password });
     };
+
 
     return (
         <View style={styles.main}>

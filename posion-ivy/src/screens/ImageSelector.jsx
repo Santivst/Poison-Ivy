@@ -23,13 +23,11 @@ const ImageSelector = ({ navigation }) => {
     const dispatch = useDispatch()
 
     const vefifyCameraPermissions = async () => {
-        // verificar permisos de camara
         const { granted } = await ImagePicker.requestCameraPermissionsAsync()
         return granted
     }
 
     const vefifyGalleryPermissions = async () => {
-        // verificar permisos de galeria
         const { granted } = await ImagePicker.requestMediaLibraryPermissionsAsync();
         return granted;
     };
@@ -63,7 +61,6 @@ const ImageSelector = ({ navigation }) => {
 
 
     const pickImage = async () => {
-        // seleccionar una imagen
         setIsImageFromCamera(true);
         try {
             const permissionCamera = await vefifyCameraPermissions()
@@ -90,7 +87,6 @@ const ImageSelector = ({ navigation }) => {
     }
 
     const confirmImage = async () => {
-        // guardar la imagen
         try {
             dispatch(setCameraImage(image))
             triggerPostImage({ image, localId })

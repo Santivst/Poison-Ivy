@@ -1,16 +1,30 @@
-// NUEVO, CLASE 10
-
-
+import React, { useEffect, useState } from "react";
 import { FlatList, StyleSheet, Text, View } from "react-native";
-import React from "react";
-import OrderData from "../data/orders.json";
+import { useSelector } from "react-redux";
+
 import OrderItem from "../components/OrderItem/OrderItem";
+import { useGetOrdersQuery } from "../services/shopServices.js";
+
+
 
 const OrderScreen = () => {
+  const {localId} = useSelector(state => state.auth.value)
+  const {data: OrderData, error, isLoading, isSuccess} = useGetOrdersQuery()
+  const [ordersFiltered, setOrderFiltered] = useState()
+
+  useEffect(()=>{
+    if(isSuccess){
+      const responseTransformed = Object.values(OrderData);
+      const ordersByUser = responseTransformed.filter( order => order.user === localId)
+      setOrderFiltered(ordersByUser)
+    }
+  },[])
+
+
   return (
     <View>
       <FlatList
-        data={OrderData}
+        data={ordersFiltered}
         keyExtractor={(orderItem) => orderItem.id}
         renderItem={({ item }) => {
           return <OrderItem order={item} />;

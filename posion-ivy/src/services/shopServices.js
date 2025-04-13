@@ -5,7 +5,7 @@ import { baseUrl } from '../databases/realTimeDataBase'
 export const shopApi = createApi({
     reducerPath: 'shopApi',
     baseQuery: fetchBaseQuery({ baseUrl: baseUrl }),
-    tagTypes: ["profileImageGet", "locationGet"],  // <-- AGREGAR ESTO
+    tagTypes: ["profileImageGet", "locationGet"],
     endpoints: (builder) => ({
         getCategories: builder.query({
             query: () => `categories.json`
@@ -30,7 +30,10 @@ export const shopApi = createApi({
                 url: 'orders.json',
                 method: 'POST',
                 body: order
-            })
+            }),
+        }),
+        getOrders: builder.query({
+            query: () => `orders.json`,
         }),
         updateStock: builder.mutation({
             query: ({ ...order }) => ({
@@ -39,13 +42,10 @@ export const shopApi = createApi({
                 body: order
             }),
         }),
-        //! ESTO ES NUEVO
-        //Obtener imagen desde la base de datos
         getProfileImage: builder.query({
             query: (localId) => `profileImages/${localId}.json`,
             providesTags: ["profileImageGet"],
         }),
-        // Guardar imagen en la base de datos.
         postProfileImage: builder.mutation({
             query: ({ image, localId }) => ({
                 url: `profileImages/${localId}.json`,
@@ -56,12 +56,10 @@ export const shopApi = createApi({
             }),
             invalidatesTags: ["profileImageGet"],
         }),
-        //Obtener direccion desde la base de datos
         getLocation: builder.query({
             query: (localId) => `locations/${localId}.json`,
             providesTags: ["locationGet"],
         }),
-        // Guardar imagen en la base de datos.
         postLocation: builder.mutation({
             query: ({ location, localId }) => ({
                 url: `locations/${localId}.json`,
@@ -84,6 +82,7 @@ export const {
     useGetProductsByCategoryQuery, 
     useGetProductsByIdQuery,
     usePostOrderMutation,
+    useGetOrdersQuery,
     useUpdateStockMutation, 
     useGetProfileImageQuery,
     usePostProfileImageMutation, 

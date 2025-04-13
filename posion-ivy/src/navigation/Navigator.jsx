@@ -1,30 +1,19 @@
-import { StyleSheet, SafeAreaView } from "react-native";
 import React, { useEffect } from "react";
+import { StyleSheet, SafeAreaView } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
-import BottomTabNavigator from "./BottomTabNavigator";
-
 import { useDispatch, useSelector } from "react-redux";
 
+import BottomTabNavigator from "./BottomTabNavigator";
 import AuthStack from "./AuthStack";
-
-
-//NUEVO CLASE 16
 
 import { useDB } from "../hooks/useDB.js";
 
-//
 
 const Navigator = () => {
-  // const [user, setUser] = useState(null)
   const {user} = useSelector(state => state.auth.value)
-
-  //NUEVO CLASE 16
-
   const dispatch = useDispatch()
   const {getSession} = useDB()
 
-
-  // obtener la session
   useEffect(()=>{
     (async ()=> {
       try{
@@ -43,10 +32,8 @@ const Navigator = () => {
       }
     })()
   },)
-  //
 
   return (
-
       <NavigationContainer>
         {user ? <BottomTabNavigator /> : <AuthStack />}
       </NavigationContainer>

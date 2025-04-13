@@ -1,6 +1,3 @@
-// NUEVO, CLASE 10
-
-
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
@@ -11,18 +8,11 @@ import { colors } from '../constants/colors.js';
 import HomeStackNavigator from './HomeStackNavigator';
 import CartStackNavigator from './CartStackNavigator'
 import OrderStackNavigator from './OrderStackNavigator'
-
-
-//! NUEVO CLASE 14
 import MyProfileStackNavigator from './MyProfileStackNavigator';
-///
 
-
-import CartTemp from '../screens/CartTemp'
-import OrderTemp from '../screens/OrdersTemp'
+import Header from '../components/Header/Header'
 
 const Tab = createBottomTabNavigator();
-import Header from '../components/Header/Header'
 
 const BottomTabNavigator = () => {
     return (
@@ -88,7 +78,6 @@ const BottomTabNavigator = () => {
                     },
                 }}
             />
-            {/* Agregar el tab para el perfil */}
             <Tab.Screen
                 name="My Profile"
                 component={MyProfileStackNavigator}
