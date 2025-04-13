@@ -13,18 +13,14 @@ const ProductItem = ({
     product,
     navigation,
 }) => {
-    // Obtiene las dimensiones de la ventana
     const { width, height } = useWindowDimensions();
-    // Determina la orientación
-    const orientation = width > height ? "portrait" : "landscape";
+    const orientation = width > height ? "landscape" : "portrait"; // corregido
 
-    // Función para obtener la imagen
     const getImage = (imagePath) => {
         const parts = imagePath.split("/");
-        const fileName = parts[parts.length - 1]; // Extrae solo el nombre del archivo
+        const fileName = parts[parts.length - 1];
         return images[fileName] || null;
     };
-
 
     return (
         <Card style={styles.additionalStylesCard}>
@@ -36,22 +32,27 @@ const ProductItem = ({
                 <Image
                     source={getImage(product.images[0])}
                     resizeMode="cover"
-                    style={orientation === "portrait" ? styles.image : styles.imageLandscape}
+                    style={[
+                        styles.image,
+                        orientation === "landscape" && styles.imageLandscape,
+                    ]}
                 />
             </Pressable>
         </Card>
-    )
-}
+    );
+};
 
-export default ProductItem
-
-
+export default ProductItem;
 
 const styles = StyleSheet.create({
     image: {
         height: 120,
         width: 100,
         borderRadius: 8,
+    },
+    imageLandscape: {
+        height: 100,
+        width: 100,
     },
     additionalStylesCard: {
         height: 120,

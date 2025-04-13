@@ -69,3 +69,5 @@ npm install
 Las órdenes se registran correctamente en Firebase, pero por alguna razón no se muestran en la pestaña correspondiente de la app. Intenté varias soluciones y revisé el código, pero como no aparece ningún error en la consola, no logré ubicar con exactitud el problema.
 2. Google Maps API:
 Para la funcionalidad de localización utilicé la googleMapsApiKey compartida por el profesor en clase, ya que no pude crear una propia por falta de acceso o permisos adecuados.
+3. ⚠️ Problema con los emuladores
+Los emuladores que mostró el profe no fueron muy útiles para mi, pues el de android era muy lento, el de IOS que usa expo no lo podía usar, pues estoy en Windows, y la app nunca la pude hacer andar. Por eso la gran mayoría de las cosas las probé en web. Debería estar todo funcionando igual, pero si hay algún error en la versión de app me disculpo por no haberlo podido chequear.
