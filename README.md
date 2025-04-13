@@ -66,8 +66,26 @@ npm install
 ## 📌 Consideraciones
 
 1. ⚠️ Problema con la ventana de órdenes:
+
 Las órdenes se registran correctamente en Firebase, pero por alguna razón no se muestran en la pestaña correspondiente de la app. Intenté varias soluciones y revisé el código, pero como no aparece ningún error en la consola, no logré ubicar con exactitud el problema.
+
+
 2. Google Maps API:
+
 Para la funcionalidad de localización utilicé la googleMapsApiKey compartida por el profesor en clase, ya que no pude crear una propia por falta de acceso o permisos adecuados.
-3. ⚠️ Problema con los emuladores
+
+
+3. ⚠️ Problema con los emuladores:
+
 Los emuladores que mostró el profe no fueron muy útiles para mi, pues el de android era muy lento, el de IOS que usa expo no lo podía usar, pues estoy en Windows, y la app nunca la pude hacer andar. Por eso la gran mayoría de las cosas las probé en web. Debería estar todo funcionando igual, pero si hay algún error en la versión de app me disculpo por no haberlo podido chequear.
+
+
+4. console.logs:
+
+Si todo salió bien, el único console.log que debería verse sería el que de advertencia de que sql no está disponible en web. Ese es intencional.
+
+---
+
+## Muchas gracias!
+
+Gracias por tomarse el tiempo de ver el proyecto y por tener la consideración de dejarme un poco más de tiempo para terminarlo. Empecé la facultad, así que ajustarse a los tiempos ha sido algo complicado. Espero haya sido una entrega satisfactoria y que haya gustado, que tenga buen día! :)

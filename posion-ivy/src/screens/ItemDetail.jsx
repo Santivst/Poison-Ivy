@@ -11,6 +11,7 @@ import { useDispatch } from "react-redux";
 
 import { images } from "../img/images.js"
 
+import { colors } from "../constants/colors.js";
 import { useGetProductsByIdQuery } from "../services/shopServices.js";
 import { addCartItem } from "../features/cart/cartSlice.js";
 
@@ -45,7 +46,7 @@ const ItemDetail = ({ route, navigation }) => {
 
   return (
     <View>
-      <Button onPress={() => navigation.goBack()} title="Go back" />
+      <Button onPress={() => navigation.goBack()} title="Go back" color={colors.primary}/>
       {product ? (
         <View
           style={
@@ -55,14 +56,17 @@ const ItemDetail = ({ route, navigation }) => {
           }>
           <Image
             source={getImage(product.images[0])}
-            resizeMode="cover"
-            style={orientation === "portrait" ? styles.image : styles.imageLandscape}
+            resizeMode="contain"
+            style={[
+              styles.imageBase,
+              orientation === "portrait" ? styles.imagePortrait : styles.imageLandscape
+            ]}
           />
           <View style={orientation === 'portrait' ? styles.textContainer : styles.textContainerLandscape}> 
             <Text>{product.title}</Text>
             <Text>{product.description}</Text>
             <Text style={styles.price}>${product.price}</Text>
-            <Button title="Add cart" onPress={handleAddCart}></Button>
+            <Button title="Add cart" onPress={handleAddCart} color={colors.primary}></Button>
           </View>
         </View>
       ) : null} 
@@ -99,7 +103,6 @@ const styles = StyleSheet.create({
   textContainer: {
     flexDirection: "column",
   },
-
   textContainerLandscape: {
     width: "50%",
     flexDirection: "column",
@@ -110,5 +113,16 @@ const styles = StyleSheet.create({
   price: {
     textAlign: "right",
     width: "100%",
+  },
+  imageBase: {
+    alignSelf: 'center',
+  },
+  imagePortrait: {
+    width: "100%",
+    height: 250,
+  },
+  imageLandscape: {
+    width: "45%",
+    height: 200,
   },
 });

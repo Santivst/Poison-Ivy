@@ -48,6 +48,7 @@ const ItemListCategory = ({
                 goBack={() => navigation.goBack()}
             />
             <FlatList
+                showsVerticalScrollIndicator= {false}
                 data={productsFiltered}
                 renderItem={({ item }) => <ProductItem 
             product={item} 
